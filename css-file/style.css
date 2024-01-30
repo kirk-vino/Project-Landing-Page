@@ -25,5 +25,48 @@ body {
 div a {
     text-decoration: none;
     font-size: 18px;
+    color: #acb8d1;
+}
+
+img {
+    width: 25%;
+}
+
+.underheader-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px; 
+  background-color: #1F2937;
+  align-items: center;
+  padding: 120px 0;
+}
+
+.website-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 450px;
+}
+
+.website-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-description {
+    font-size: 18px;
     color: #bec6d7;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 35px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    
 }
