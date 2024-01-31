@@ -36,12 +36,12 @@ img {
 }
 
 .underheader-container {
-  display: flex;
-  justify-content: center;
-  gap: 50px; 
-  background-color: #1F2937;
-  align-items: center;
-  padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    background-color: #1F2937;
+    align-items: center;
+    padding: 100px 0;
 }
 
 .website-title-container {
