@@ -1,6 +1,8 @@
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -30,7 +32,7 @@ div a {
 
 img {
     width: 30%;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .underheader-container {
@@ -62,11 +64,11 @@ img {
 
 .signup-button {
     background-color: #3882F6;
-    color: white;
-    padding: 10px 35px;
+    color: #F9FAF8;
+    padding: 7px 32px;
     font-weight: bold;
-    font-size: 20px;
-    border-radius: 10px;
+    font-size: 18px;
+    border-radius: 8px;
     border: none;
     cursor: pointer;
     
@@ -96,7 +98,7 @@ img {
 .info img {
     width: 100%;
     max-height: 75%;
-    border-radius: 10px;
+    border-radius: 8px;
     margin-bottom: 10px;
 }
 
@@ -124,7 +126,44 @@ img {
     font-weight: bold;
     align-self: flex-end;
     margin-right: 50px;
+    font-size: 24px;
     
 }
 
+.action-outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 100px 0;
+}
+
+.action-main-container {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    padding: 50px 130px;
+    gap: 175px;
+}
+
+.call-to-action {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-bottom: 5px;
+}
+
+.signup-subtext {
+    color: #d5d5d5;
+    font-size: 18px;
+}
+
+.button-container {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 4px;
+}
+.lowerbutton {
+    border: solid white;
+}
 
