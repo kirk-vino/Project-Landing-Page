@@ -50,7 +50,7 @@ img {
 }
 
 .website-title {
-    font-size: 48px;
+    font-size: 45px;
     font-weight: 800;
     color: #F9FAF8;
 }
@@ -88,13 +88,43 @@ img {
 }
 
 .info {
-    max-width: 150px; 
+    max-width: 230px; 
     font-size: 18px;
     color: rgb(101, 105, 104); 
 }
 
 .info img {
-width: 100%;
-max-height: 70%;
-border-radius: 10px;
+    width: 100%;
+    max-height: 75%;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
+
+.quote-main-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.quote-and-signature-container {
+    max-width: 850px;
+    display: flex;
+    flex-direction: column;
+}
+.quotation {
+    font-size: 36px;
+    font-style: italic;
+    color: #4c4d50;
+    font-weight: 300;
+}
+
+.quote-signature {
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 50px;
+    
+}
+
+
