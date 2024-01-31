@@ -141,9 +141,12 @@ img {
 .action-main-container {
     background-color: #3882F6;
     border-radius: 8px;
+    height: 160px;
     display: flex;
-    padding: 50px 130px;
-    gap: 175px;
+    align-items: center;
+    gap: 170px;
+    padding: 0 140px;
+    
 }
 
 .call-to-action {
@@ -159,11 +162,22 @@ img {
 }
 
 .button-container {
+    height: 45px;
     display: flex;
     align-items: flex-end;
-    padding-bottom: 4px;
+    
+   
 }
 .lowerbutton {
     border: solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #c4c4c4;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
