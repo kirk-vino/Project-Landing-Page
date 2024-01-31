@@ -71,7 +71,6 @@ img {
     border-radius: 8px;
     border: none;
     cursor: pointer;
-    
 }
 
 .some-info-header {
@@ -165,9 +164,8 @@ img {
     height: 45px;
     display: flex;
     align-items: flex-end;
-    
-   
 }
+
 .lowerbutton {
     border: solid white;
 }
