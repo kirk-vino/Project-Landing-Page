@@ -135,25 +135,25 @@ img {
     justify-content: center;
     align-items: center;
     flex: 1;
-    margin: 60px;
+    margin: 60px 180px;
 }
 
 .action-main-container {
     background-color: #3882F6;
     border-radius: 8px;
-    height: 100px;
+    height: 130px;
     display: flex;
     align-items: center;
-    flex: 0 1 auto;
-    gap: 150px;
-    padding: 30px 120px;
+    flex: 1 1 auto;
+    justify-content: space-evenly;
+    padding: 20px 15px;
     margin: 30px;
 }
 
 .action-text-container {
     display: flex;
     flex-direction: column;
-    flex-shrink: 2;
+    flex-shrink: 0;
 }
 .call-to-action {
     font-weight: bold;
