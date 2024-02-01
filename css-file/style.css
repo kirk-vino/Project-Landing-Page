@@ -151,7 +151,7 @@ img {
 .action-text-container {
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
 .call-to-action {
     font-weight: bold;
