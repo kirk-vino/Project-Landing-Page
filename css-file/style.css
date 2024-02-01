@@ -135,7 +135,7 @@ img {
     justify-content: center;
     align-items: center;
     flex: 1;
-    padding: 100px 50px;
+    margin: 60px;
 }
 
 .action-main-container {
@@ -144,14 +144,16 @@ img {
     height: 100px;
     display: flex;
     align-items: center;
-    gap: 170px;
-    padding: 30px 140px;
+    flex: 0 1 auto;
+    gap: 150px;
+    padding: 30px 120px;
+    margin: 30px;
 }
 
 .action-text-container {
     display: flex;
     flex-direction: column;
-    flex-shrink: 1;
+    flex-shrink: 0;
 }
 .call-to-action {
     font-weight: bold;
