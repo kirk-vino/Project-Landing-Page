@@ -153,7 +153,7 @@ img {
 .action-text-container {
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
+    flex-shrink: 2;
 }
 .call-to-action {
     font-weight: bold;
