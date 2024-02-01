@@ -135,7 +135,7 @@ img {
     justify-content: center;
     align-items: center;
     flex: 1;
-    margin: 60px 180px;
+    margin: 60px 150px;
 }
 
 .action-main-container {
@@ -144,7 +144,7 @@ img {
     height: 130px;
     display: flex;
     align-items: center;
-    flex: 1 1 auto;
+    flex: 1 0 auto;
     justify-content: space-evenly;
     padding: 20px 15px;
     margin: 30px;
